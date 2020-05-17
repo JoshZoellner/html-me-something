@@ -1,14 +1,18 @@
-h1, h2, h3, h4, h5, h6, p, figcaption {
+h1, h2, h3, h4, h5, h6, figcaption{
+    margin: auto;
     text-align: center;
-}
-
+  }
+  
 p {
-    margin: 0 8em 0 8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     padding: 1em;
     text-align: center;
 }
 
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,10 +26,54 @@ img{
     width: 50%;
 } */
 
+
+
+/*_______________________________[CLASSES]_______________________________*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.links{
+    font-size: 1.5em;
+    margin: 0 1.5em;
+}
+
+.logo{
+    width: 4em;
+    height: 4em;
+    margin: 1em 1em;
+}
+
+.navbar{
+    background-color:white;
+    margin: 2em 0 2em 0;
+ }
+
+ .navlinks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 0;
+}
+  
 .nav-list {
     text-align: center;
-    color: blue
 }
+
+.page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+  }
+
+/*_______________________________[ID's]_______________________________*/
 
 #full-width-banner{
     width: 100% !important;
